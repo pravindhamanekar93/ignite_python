@@ -1,0 +1,518 @@
+🧠 ✅ TOP 50 PYTHON MCQs WITH ANSWERS
+🔹 SECTION 1: Data Types (Q1–Q15)
+Q1. Which is NOT a Python data type?
+
+A) int
+B) float
+C) char
+D) list
+
+✅ Ans: C
+
+Q2. Which data type is immutable?
+
+A) list
+B) dict
+C) tuple
+D) set
+
+✅ Ans: C
+
+Q3. Which is mutable?
+
+A) tuple
+B) string
+C) list
+D) int
+
+✅ Ans: C
+
+Q4. What is type of True in Python?
+
+A) int
+B) bool
+C) str
+D) float
+
+✅ Ans: B
+
+Q5. Output of type(10.5)?
+
+A) int
+B) float
+C) double
+D) decimal
+
+✅ Ans: B
+
+Q6. Which data type stores key-value pairs?
+
+A) list
+B) tuple
+C) dict
+D) set
+
+✅ Ans: C
+
+Q7. Which is hashable (can be dict key)?
+
+A) list
+B) tuple
+C) dict
+D) set
+
+✅ Ans: B
+
+Q8. Which is immutable set type?
+
+A) set
+B) dict
+C) frozenset
+D) tuple
+
+✅ Ans: C
+
+Q9. Python int size is:
+
+A) 4 bytes fixed
+B) 8 bytes fixed
+C) unlimited
+D) 2 bytes
+
+✅ Ans: C
+
+Q10. Which is sequence data type?
+
+A) dict
+B) tuple
+C) set
+D) bool
+
+✅ Ans: B
+
+Q11. Type of "Hello"?
+
+A) char
+B) str
+C) bytes
+D) list
+
+✅ Ans: B
+
+Q12. Which is binary data type?
+
+A) int
+B) bytes
+C) list
+D) dict
+
+✅ Ans: B
+
+Q13. Which stores unique values?
+
+A) list
+B) tuple
+C) set
+D) dict
+
+✅ Ans: C
+
+Q14. Which is mapping type?
+
+A) dict
+B) list
+C) tuple
+D) range
+
+✅ Ans: A
+
+Q15. Which data type is ordered?
+
+A) set
+B) dict (Python 3.7+)
+C) frozenset
+D) None
+
+✅ Ans: B
+
+🔹 SECTION 2: Bits & Bytes (Q16–Q25)
+Q16. 1 Byte = ? bits
+
+A) 4
+B) 8
+C) 16
+D) 32
+
+✅ Ans: B
+
+Q17. 1 KB = ? bytes
+
+A) 1000
+B) 1024
+C) 2048
+D) 512
+
+✅ Ans: B
+
+Q18. How many values can 8 bits store?
+
+A) 128
+B) 256
+C) 512
+D) 64
+
+✅ Ans: B
+
+Q19. Binary number system base is:
+
+A) 10
+B) 8
+C) 2
+D) 16
+
+✅ Ans: C
+
+Q20. Decimal 10 in binary is:
+
+A) 1010
+B) 1110
+C) 1001
+D) 1100
+
+✅ Ans: A
+
+Q21. Binary 1010 in decimal is:
+
+A) 8
+B) 10
+C) 12
+D) 15
+
+✅ Ans: B
+
+Q22. Which is smallest data unit?
+
+A) byte
+B) bit
+C) nibble
+D) word
+
+✅ Ans: B
+
+Q23. Why computers use binary?
+
+A) Easy to store
+B) Hardware ON/OFF
+C) Faster than decimal
+D) Human readable
+
+✅ Ans: B
+
+Q24. ASCII uses how many bits?
+
+A) 4
+B) 6
+C) 7/8
+D) 16
+
+✅ Ans: C
+
+Q25. Unicode uses:
+
+A) 1 byte
+B) 2–4 bytes
+C) 8 bytes
+D) fixed 1 byte
+
+✅ Ans: B
+
+🔹 SECTION 3: Variables & Global Variables (Q26–Q35)
+Q26. Variable in Python stores:
+
+A) value
+B) pointer to object
+C) address only
+D) CPU register
+
+✅ Ans: B
+
+Q27. What is global variable?
+
+A) Inside function
+B) Outside function
+C) Inside class
+D) Inside loop
+
+✅ Ans: B
+
+Q28. Keyword to access global variable inside function?
+
+A) static
+B) global
+C) extern
+D) public
+
+✅ Ans: B
+
+Q29. Python variable type is:
+
+A) static
+B) dynamic
+C) constant
+D) fixed
+
+✅ Ans: B
+
+Q30. Which is valid variable name?
+
+A) 1num
+B) num-1
+C) _num
+D) num 1
+
+✅ Ans: C
+
+Q31. Python variable declaration syntax:
+
+A) int a = 10
+B) a = 10
+C) var a = 10
+D) let a = 10
+
+✅ Ans: B
+
+Q32. Variable scope inside function is:
+
+A) global
+B) local
+C) static
+D) universal
+
+✅ Ans: B
+
+Q33. What happens if global not declared?
+
+A) Error
+B) Local variable created
+C) Global modified
+D) Program crash
+
+✅ Ans: B
+
+Q34. Python variable naming follows:
+
+A) CamelCase
+B) snake_case
+C) PascalCase
+D) None
+
+✅ Ans: B
+
+Q35. Which is constant variable in Python?
+
+A) const a=10
+B) final a=10
+C) a=10 (no true constant)
+D) static a=10
+
+✅ Ans: C
+
+🔹 SECTION 4: Unpacking Collections (Q36–Q40)
+Q36. Output?
+a, b = (10, 20)
+
+
+A) Error
+B) a=10, b=20
+C) a=20, b=10
+D) None
+
+✅ Ans: B
+
+Q37. What is unpacking?
+
+A) Packing variables
+B) Extracting values from collection
+C) Sorting list
+D) Printing list
+
+✅ Ans: B
+
+Q38. Output?
+a, *b = [1,2,3,4]
+
+
+A) a=1, b=[2,3,4]
+B) Error
+C) a=[1], b=2
+D) None
+
+✅ Ans: A
+
+Q39. Which supports unpacking?
+
+A) list
+B) tuple
+C) set
+D) All
+
+✅ Ans: D
+
+Q40. What happens if values mismatch?
+a, b = [1,2,3]
+
+
+A) Works
+B) ValueError
+C) SyntaxError
+D) None
+
+✅ Ans: B
+
+🔹 SECTION 5: Random Numbers (Q41–Q45)
+Q41. Module for random numbers?
+
+A) math
+B) random
+C) sys
+D) numpy
+
+✅ Ans: B
+
+Q42. Function to generate random float (0–1)?
+
+A) random()
+B) randint()
+C) randrange()
+D) choice()
+
+✅ Ans: A
+
+Q43. Generate random int 1 to 10:
+
+A) random(1,10)
+B) randint(1,10)
+C) rand(1,10)
+D) range(1,10)
+
+✅ Ans: B
+
+Q44. Random element from list:
+
+A) choice()
+B) select()
+C) pick()
+D) random()
+
+✅ Ans: A
+
+Q45. randrange(1,10) gives:
+
+A) 1 to 9
+B) 1 to 10
+C) 0 to 9
+D) 0 to 10
+
+✅ Ans: A
+
+🔹 SECTION 6: print("Hello", end="") (Q46–Q50)
+Q46. What does end="" do?
+
+A) Adds newline
+B) Removes newline
+C) Stops program
+D) Adds space
+
+✅ Ans: B
+
+Q47. Default value of end parameter?
+
+A) ""
+B) "\n"
+C) " "
+D) None
+
+✅ Ans: B
+
+Q48. Output?
+print("Hi", end="")
+print("Python")
+
+
+A) Hi
+Python
+B) HiPython
+C) Error
+D) Hi Python
+
+✅ Ans: B
+
+Q49. Print without newline uses:
+
+A) sep
+B) end
+C) format
+D) flush
+
+✅ Ans: B
+
+Q50. Which prints space separated?
+print("Hello", "World")
+
+
+A) HelloWorld
+B) Hello World
+C) Error
+D) Hello,World
+
+✅ Ans: B
+
+🎯 SUPER TIP FOR EXAMS
+
+👉 Python variables = dynamic typing
+👉 1 Byte = 8 bits
+👉 list = mutable, tuple = immutable
+👉 global keyword changes global variable
+👉 end="" removes newline
+
+
+🧊 What is frozenset in Python?
+
+👉 frozenset is an immutable version of set
+
+set → mutable (can change)
+
+frozenset → cannot be changed after creation
+
+✅ Simple Definition
+
+A frozenset is an unordered collection of unique elements that cannot be modified.
+
+🧠 Syntax
+fs = frozenset([1, 2, 3, 4])
+
+✅ Example
+fs = frozenset([1, 2, 3, 3])
+print(fs)
+
+Output:
+frozenset({1, 2, 3})
+
+
+👉 Duplicates removed (like set).
+
+❌ Cannot Modify Frozenset
+fs.add(5)
+
+Output:
+AttributeError: 'frozenset' object has no attribute 'add'
+
+
+👉 Because frozenset is immutable.
+
+🔥 Difference: set vs frozenset
+Feature	set	frozenset
+Mutable	✅ Yes	❌ No
+Add/Remove elements	✅ Yes	❌ No
+Hashable	❌ No	✅ Yes
+Can be dict key	❌ No	✅ Yes
